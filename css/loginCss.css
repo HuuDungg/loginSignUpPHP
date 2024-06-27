@@ -1,0 +1,38 @@
+.container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+background-color: blue;
+color: white;
+padding: 10px 20px;
+border: solid 1px 5E5BFF;
+border-radius: 4px;
+width: 79px;
+height: 52px;
+box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 12px;
+}
+
+.textInput{
+    height: 50px;
+    width: 325px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+form > div {
+    margin: 20px 0px;
+}
+
+::placeholder {
+    color: #999; 
+    font-style: italic; 
+    font-size: 14px;
+    margin-left: 30px;
+}
